@@ -2,6 +2,7 @@
 Neha Jain
 Professor Penta
 Programming for IT (CIS 153)
+
 Title: Password Generator
 Description: A program that will generate strong password(s) for you.
 Type in your name as well as birth month, day, and year followed by age.
