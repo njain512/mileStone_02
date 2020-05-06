@@ -2,7 +2,6 @@
 Neha Jain
 Professor Penta
 Programming for IT (CIS 153)
-
 Title: Password Generator
 Description: A program that will generate strong password(s) for you.
 Type in your name as well as birth month, day, and year followed by age.
@@ -43,7 +42,7 @@ window.geometry("400x310")
 # FUNCTIONS ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- -------
 def thanks(name):
     top2 = tk.Toplevel()
-    thankUser = tk.Label(top2, text=name + ", Thank you for using the Password Generator.", font=("Open Sans", 40))
+    thankUser = tk.Label(top2, text=name + ", Thank you for using the Password Generator.", font=("Open Sans", 30))
     thankUser.pack()
 
 
@@ -91,11 +90,11 @@ def generate_pass():
                     print(make_pass)
                 else:
                     print(make_pass)
-                displayPass= tk.Label(top, text=make_pass, font=("Open Sans", 10))
+                displayPass= tk.Label(top, text=make_pass, font=("Open Sans", 30))
                 displayPass.pack()
 
     if len <6:
-        displayPass = tk.Label(top, text="Use more than 5 character to make strong password.", font=("Open Sans", 10))
+        displayPass = tk.Label(top, text="Use more than 5 character to make strong password.", font=("Open Sans", 30))
 
         displayPass.pack()
 
