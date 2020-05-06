@@ -37,7 +37,7 @@ window = tk.Tk()
 window.title("Password Generator")
 
 # Window Size
-window.geometry("400x600")
+window.geometry("400x310")
 
 # FUNCTIONS ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- ------- -------
 def thanks(name):
@@ -113,7 +113,7 @@ notification.grid(row=1)
 # user's input box
 fullname_input = tk.Entry(window, width=40, borderwidth=3, relief="sunken")
 # places the widget on the side of the window
-fullname_input.pack(side='left', ipadx=20, padx=30)
+fullname_input.pack(side='left')
 # place where you want widget (before or after this button)
 fullname_input.grid(row=3)
 # insertion cursor at this mark's position
@@ -123,7 +123,7 @@ fullname_input.insert(0, "Fullname")
 # user's input box
 birth_month_input = tk.Entry(window, width=40, borderwidth=3, relief="sunken")
 # places the widget on the side of the window
-birth_month_input.pack(side='left', ipadx=20, padx=30)
+birth_month_input.pack(side='left')
 # place where you want widget (before or after this button)
 birth_month_input.grid(row=4)
 # insertion cursor at this mark's position
@@ -133,7 +133,7 @@ birth_month_input.insert(0, "Birth Month")
 # user's input box
 birth_day_input = tk.Entry(window, width=40, borderwidth=3, relief="sunken")
 # places the widget on the side of the window
-birth_day_input.pack(side='left', ipadx=20, padx=30)
+birth_day_input.pack(side='left')
 # place where you want widget (before or after this button)
 birth_day_input.grid(row=5)
 # insertion cursor at this mark's position
@@ -143,7 +143,7 @@ birth_day_input.insert(0, "Birth Day")
 # user's input box
 birth_year_Input = tk.Entry(window, width=40, borderwidth=3, relief="sunken")
 # places the widget on the side of the window
-birth_year_Input.pack(side='left', ipadx=20, padx=30)
+birth_year_Input.pack(side='left')
 # place where you want widget (before or after this button)
 birth_year_Input.grid(row=6)
 # insertion cursor at this mark's position
@@ -153,7 +153,7 @@ birth_year_Input.insert(0, "Birth Year")
 # user's input box
 age_input = tk.Entry(window, width=40, borderwidth=3, relief="sunken")
 # places the widget on the side of the window
-age_input.pack(side='left', ipadx=20, padx=30)
+age_input.pack(side='left')
 # place where you want widget (before or after this button)
 age_input.grid(row=7)
 # insertion cursor at this mark's position
@@ -163,7 +163,7 @@ age_input.insert(0, "Age")
 # user's input box
 number_password_input = tk.Entry(window, width=40, borderwidth=3, relief="sunken")
 # places the widget on the side of the window
-number_password_input.pack(side='left', ipadx=20, padx=30)
+number_password_input.pack(side='left')
 # place where you want widget (before or after this button)
 number_password_input.grid(row=8)
 # insertion cursor at this mark's position
@@ -173,7 +173,7 @@ number_password_input.insert(0, "Numbers of passwords to generate")
 # user's input box
 length_password_input = tk.Entry(window, width=40, borderwidth=3, relief="sunken")
 # places the widget on the side of the window
-length_password_input.pack(side='left', ipadx=20, padx=30)
+length_password_input.pack(side='left')
 # place where you want widget (before or after this button)
 length_password_input.grid(row=9)
 # insertion cursor at this mark's position
